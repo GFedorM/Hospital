@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Demo", "Hospital.Demo\Hospital.Demo.csproj", "{60D09767-B92F-4C4C-99F9-4F7C9E102C46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Demo", "Hospital.Demo\Hospital.Demo.csproj", "{60D09767-B92F-4C4C-99F9-4F7C9E102C46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Domain", "Hospital.Domain\Hospital.Domain.csproj", "{6F723F5D-FCA8-4737-9E52-E13534E3AAD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Domain", "Hospital.Domain\Hospital.Domain.csproj", "{6F723F5D-FCA8-4737-9E52-E13534E3AAD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Staff", "Hospital.Staff\Hospital.Staff.csproj", "{5773F8CC-8F94-41BC-87EB-1823CC8B2450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Staff", "Hospital.Staff\Hospital.Staff.csproj", "{5773F8CC-8F94-41BC-87EB-1823CC8B2450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.DataAccess", "Hospital.DataAccess\Hospital.DataAccess.csproj", "{EC822B39-7F40-404D-8665-B8807F4EAFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.DataAccess", "Hospital.DataAccess\Hospital.DataAccess.csproj", "{EC822B39-7F40-404D-8665-B8807F4EAFE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Demo.Tests", "Hospital.Demo.Tests\Hospital.Demo.Tests.csproj", "{1FD5E92C-91CA-4117-9230-7CC52F596BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EC822B39-7F40-404D-8665-B8807F4EAFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC822B39-7F40-404D-8665-B8807F4EAFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC822B39-7F40-404D-8665-B8807F4EAFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD5E92C-91CA-4117-9230-7CC52F596BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD5E92C-91CA-4117-9230-7CC52F596BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD5E92C-91CA-4117-9230-7CC52F596BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD5E92C-91CA-4117-9230-7CC52F596BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
