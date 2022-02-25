@@ -1,11 +1,9 @@
-﻿namespace Domain
+﻿namespace Hospital.Domain
 {
     using System;
     using System.Collections.Generic;
     using Hospital.Staff.Extensions;
-    /// <summary>
-    /// Абонент
-    /// </summary>
+    
     public class Doctor : IEquatable<Doctor>
     {
         /// <summary>

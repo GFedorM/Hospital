@@ -1,4 +1,4 @@
-﻿namespace DataAccess
+﻿namespace Hospital.DataAccess
 {
     using System.Reflection;
     using FluentNHibernate.Cfg;

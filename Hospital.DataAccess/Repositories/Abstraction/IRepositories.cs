@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Repositories.Abstraction
+﻿namespace Hospital.DataAccess.Repositories.Abstraction
 {
     using System;
     using System.Linq;

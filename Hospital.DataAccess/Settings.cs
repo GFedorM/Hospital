@@ -1,4 +1,4 @@
-﻿namespace DataAccess
+﻿namespace Hospital.DataAccess
 {
     using System;
     using System.Configuration;

@@ -1,11 +1,11 @@
-﻿namespace DataAccess.Repositories
+﻿namespace Hospital.DataAccess.Repositories
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
-    using DataAccess.Repositories.Abstraction;
-    using Domain;
+    using Hospital.DataAccess.Repositories.Abstraction;
+    using Hospital.Domain;
     using NHibernate;
 
     public class PacientRepository : IRepository<Pacient>
