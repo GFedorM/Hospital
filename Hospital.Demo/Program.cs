@@ -1,10 +1,11 @@
-﻿namespace Demo
+﻿namespace Hospital.Demo
 {
     using System;
     using System.Linq;
-    using DataAccess;
-    using DataAccess.Repositories;
-    using Domain;
+    using Hospital.DataAccess;
+    using Hospital.DataAccess.Repositories;
+    using Hospital.Domain;
+    using NHibernate.Util;
 
     internal class Program
     {
@@ -54,7 +55,8 @@
                 Console.WriteLine("All pacients:");
                 repoPacient.GetAll(session)
                     .ToList().ForEach(Console.WriteLine);
-                Console.WriteLine(new string('-', 25));
+                Console.WriteLine(new string ('-', 25));
+                //Console.WriteLine($"{0} {1} {2} {3}");
 
                 var repoDoctor = new DoctorRepository();
                 Console.WriteLine("All doctors:");

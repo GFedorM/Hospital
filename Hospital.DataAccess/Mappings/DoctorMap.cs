@@ -1,7 +1,7 @@
-﻿namespace DataAccess.Mappings
+﻿namespace Hospital.DataAccess.Mappings
 {
     using FluentNHibernate.Mapping;
-    using Domain;
+    using Hospital.Domain;
 
     internal class DoctorMap : ClassMap<Doctor>
     {
